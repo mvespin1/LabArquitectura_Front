@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://172.173.117.190:3001/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://172.202.9.125:3001/api';
 
 function App() {
   const [books, setBooks] = useState([]);
